@@ -1,0 +1,13 @@
+.footer {
+  background-color: #343a40; /* Dark gray */
+  color: #f8f9fa;
+}
+
+.footer a {
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

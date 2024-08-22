@@ -1,0 +1,6 @@
+.call-to-action {
+  background-color: #007bff; /* New color value */
+  color: var(--light-color);
+  padding: 3rem 2rem;
+  text-align: center;
+}

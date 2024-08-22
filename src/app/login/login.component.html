@@ -1,0 +1,43 @@
+<div class="login-wrapper">
+  <div class="login-container">
+    <h1 class="login-title">Log in to Your Account</h1>
+    
+    <div class="login-buttons">
+      <button class="login-btn google-btn">
+        <img src="google.png" alt="Google Logo">
+        Log in with Google
+      </button>
+      <button class="login-btn facebook-btn">
+        <img src="facebook.png" alt="Facebook Logo">
+        Log in with Facebook
+      </button>
+      <button class="login-btn linkedin-btn">
+        <img src="linkedin.png" alt="LinkedIn Logo">
+        Log in with LinkedIn
+      </button>
+    </div>
+    
+    <div class="separator">
+      <span>or</span>
+    </div>
+    
+    <form class="login-form">
+      <div class="form-group">
+        <label for="email">Email address *</label>
+        <input type="email" id="email" name="email" placeholder="Your email address" required>
+      </div>
+      
+      <div class="form-group">
+        <label for="password">Password *</label>
+        <input type="password" id="password" name="password" placeholder="Password" required>
+      </div>
+      
+      <button type="submit" class="login-submit-btn">Log in</button>
+    </form>
+    
+    <div class="login-footer">
+      <p>Don’t have an account? <a [routerLink]="['/signup']">Sign up here</a>.</p>
+      <p>Forgot your password? <a [routerLink]="['/reset']">Reset it here</a>.</p>
+    </div>
+  </div>
+</div>

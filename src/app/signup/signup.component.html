@@ -1,0 +1,45 @@
+<div class="signup-wrapper">
+    <div class="signup-container">
+      <h1 class="signup-title">Sign up for Your Account</h1>
+      
+      <div class="signup-buttons">
+        <button class="signup-btn google-btn" (click)="signUpWithGoogle()">
+          <img src="google.png" alt="Google Logo">
+          Sign up with Google
+        </button>
+        <button class="signup-btn facebook-btn">
+          <img src="facebook.png" alt="Facebook Logo">
+          Sign up with Facebook
+        </button>
+        <button class="signup-btn linkedin-btn">
+          <img src="linkedin.png" alt="LinkedIn Logo">
+          Sign up with LinkedIn
+        </button>
+        
+      </div>
+      
+      <div class="separator">
+        <span>or</span>
+      </div>
+      
+      <form class="signup-form">
+        <div class="form-group">
+          <label for="email">Email address *</label>
+          <input type="email" id="email" name="email" placeholder="Your email address" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="password">Password *</label>
+          <input type="password" id="password" name="password" placeholder="Choose a password" required>
+        </div>
+        
+        <button type="submit" class="signup-submit-btn">Get started</button>
+      </form>
+      
+      <div class="signup-footer">
+        <p>Already use Exponent? <a [routerLink]="['/login']">Log in here</a>.</p>
+        <p>By creating an account, you agree to our <a href="#">terms of service</a> and <a href="#">privacy policy</a>.</p>
+      </div>
+    </div>
+  </div>
+  

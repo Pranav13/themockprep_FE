@@ -1,0 +1,175 @@
+/* General Page Styling */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Wrapper */
+.login-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+/* Container */
+.login-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 400px;
+}
+
+/* Title */
+.login-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #343a40;
+}
+
+/* Login Buttons */
+.login-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.login-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.login-btn img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.google-btn {
+  background-color: #ffffff;
+  color: #4285f4;
+  border: 1px solid #ddd;
+}
+
+.google-btn:hover {
+  background-color: #f1f1f1;
+}
+
+.facebook-btn {
+  background-color: #4267b2;
+  color: #ffffff;
+}
+
+.facebook-btn:hover {
+  background-color: #365899;
+}
+
+.linkedin-btn {
+  background-color: #0077b5;
+  color: #ffffff;
+}
+
+.linkedin-btn:hover {
+  background-color: #005582;
+}
+
+.university-btn {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+.university-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Separator */
+.separator {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex-grow: 1;
+  height: 1px;
+  background: #ddd;
+  margin: 0 10px;
+}
+
+/* Login Form */
+.login-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #343a40;
+  font-weight: 500;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.login-form input:focus {
+  border-color: #563d7c;
+}
+
+/* Submit Button */
+.login-submit-btn {
+  background-color: #563d7c; /* Main theme color */
+  color: #ffffff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.login-submit-btn:hover {
+  background-color: #472f5d;
+}
+
+/* Footer Links */
+.login-footer {
+  margin-top: 1.5rem;
+  font-size: 0.875rem;
+  text-align: center;
+}
+
+.login-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-footer a:hover {
+  text-decoration: underline;
+}
